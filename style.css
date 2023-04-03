@@ -1,0 +1,24 @@
+nav{
+     width: 54%;
+     margin: auto;
+     padding: 0px 0;
+     display:flex;
+     -webkit-box-flex: var(5px);
+     align-items: center;
+     justify-content: space-between;
+ }
+ nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 5px 35px;
+ }
+
+ nav ul li a{
+     text-decoration: none;
+     color: #000000;
+     font-size:large;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ }
+ nav ul li a:hover{
+     color: green;
+ }
